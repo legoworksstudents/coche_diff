@@ -15,7 +15,8 @@ radio.onReceivedNumber(function (receivedNumber) {
         neZha.setMotorSpeed(neZha.MotorList.M1, 0)
         neZha.setMotorSpeed(neZha.MotorList.M2, 0)
     }
+    basic.pause(10)
 })
-let grupo = 1
+let grupo = 4
 radio.setGroup(grupo)
 basic.showNumber(grupo)
